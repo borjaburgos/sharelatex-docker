@@ -16,4 +16,6 @@ ADD user_files /sharelatex/user_files
 ADD db /data/db
 ADD sharelatex.sh /usr/bin/sharelatex.sh
 
+CMD ./sharelatex.sh
+
 EXPOSE 3000
